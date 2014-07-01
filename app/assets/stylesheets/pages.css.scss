@@ -1,0 +1,167 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    font-size: 12px;
+    background: #000;
+    color: #959595;
+    font-family: Arial,sans-serif;
+    line-height: normal;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+    font-style: italic;
+    color: #9c0;
+    margin: 5px auto;
+    letter-spacing: -1px;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    color: #006AA3;
+    letter-spacing: -.025em;
+    margin-bottom: 0;
+}
+
+h5,h5 a {
+    color: #009eff;
+    font-size: 150%;
+}
+
+a {
+    color: #9c0;
+    text-decoration: none;
+}
+
+a:hover,a:active,a:focus {
+    color: #cf0;
+}
+
+img {
+    -ms-interpolation-mode: bicubic;
+    border: none;
+}
+
+ul {
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+    font-weight: 700;
+    margin-left: -20px;
+}
+
+form {
+    border: none;
+    margin-right: 200px;
+    text-align: center;
+    float: right;
+}
+
+input,textarea {
+    margin-bottom: 10px;
+    margin-top: -5px;
+    margin-right: 0;
+    padding: 5px;
+}
+
+label {
+    color: #006AA3;
+    font-size: 200%;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: -1px;
+}
+
+section {
+    position: relative;
+    display:block;
+}
+
+footer {
+    background: url(logo_footer.png) no-repeat top center;
+font-size: 75%;
+padding-top:35px;
+text-align:center;
+opacity:0.7;
+filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+/*Content*/
+.content {
+    background-clip: content-box;
+    width: 80%;
+    margin-top: 35px;
+}
+
+.clr {
+    clear: both;
+}
+
+.clr:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.half {
+    max-width:45%;
+    padding:3%;
+
+}
+
+@media (min-width 768px) {
+    body {
+        background-image: url('1920x1080.png');
+        background-position: top center;
+    }
+    
+    .cffree {
+        float: right;
+        padding: 50px 100px 100px 0;
+    }
+
+}
+
+/* Smartphones ----------- */
+@media (max-width 768px) {
+    form {
+        margin: 0 auto;
+        float: none;
+    }
+    
+    h1 {
+        font-size: 215%;
+    }
+    
+    .cffree {
+        padding: 0;
+    }
+
+}
+

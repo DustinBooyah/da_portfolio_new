@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+   <title>Dustin Aguilar - Web Design and Developement</title>
+   
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+   <meta content="The Portfolio of Dustin Aguilar, a web designer and developer in Gainesville FL" name="description">
+    <meta content="Dustin Aguilar - Web Developement">
+    <meta content="website">
+    <meta content="http://www.dustinaguilar.com">
+    <meta content="http://www.dustinaguilar.com/thumbnail.png">
+    <meta content="201403583">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+</head>
+<body>
+<header>
+<%= render 'layouts/nav' %>
+</header>
+	<section>
+		<%= yield %>
+	</section>
+
+<%= render 'layouts/footer' %>
+
+</body>
+</html>
