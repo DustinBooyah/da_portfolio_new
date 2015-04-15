@@ -19,19 +19,21 @@
 <meta content="http://www.dustinaguilar.com/thumbnail.png">
 <meta content="201403583">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
-<body>
+<body ontouchstart="" onmouseover="">
 
-<header>
-  <%= render 'layouts/nav' %>
-</header>
+	<header>
+	  <%= render 'layouts/nav' %>
+	</header>
 
-<section>
-	<%= yield %>
-</section>
+	<section>
+		<%= yield %>
+	</section>
 
-<%= render 'layouts/footer' %>
-
+	<%= render 'layouts/footer' %>
+ <script type="text/javascript">
+ var _gaq = _gaq || [];    _gaq.push(['_setAccount', 'UA-5935415-5']);    _gaq.push(['_trackPageview']);    (function() {      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);    })();
+  </script>
 </body>
 </html>
