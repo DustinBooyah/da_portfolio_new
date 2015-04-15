@@ -1,51 +1,31 @@
-/* Navigation */
+nav {
+	font-size:2rem;
+	background:linear-gradient(180deg, rgba(4, 42, 102, 0.36), transparent) repeat scroll 0% 0% transparent;
+}
+nav a {
+	  transition: all 0.1s ease-in-out;
+	  text-align:center;
+	  /*background-color:rgba(0,0,0,0.25);*/
+	  /*border-radius:50px;*/
+	  border-bottom:rgba(0, 0, 0, 0.1) solid 1px;
+	}
 
-// nav{
-//     text-align:center;
-//     font-weight: 700;
-//     font-style:italic;
-//     letter-spacing: -1px;
-//     white-space:nowrap;
-// }
+nav a:hover,nav a:focus {
+border-bottom: 1px solid #0091FC;
+background: linear-gradient(21deg, rgba(4, 42, 102, 0.36), transparent) repeat scroll 0% 0% transparent;
+transition: all 0.1s ease-in-out 0s;
+color: #CF0;
+box-shadow: 1px -4px 2px -2px rgba(0, 147, 255, 0.45) inset;
+}
 
-// nav a:link, nav a:visited{
-// color:#336798;
-// margin:10px 20px;
-// transition: all 0.3s ease-in-out;
-// opacity:0.5;
-// filter:alpha(opacity=50); /* For IE8 and earlier */
-// }
-// nav a:hover{
-// color:#91B514;
-// border-bottom:solid 1px #91B514;
-// opacity:1;
-// filter:alpha(opacity=100); /* For IE8 and earlier */
-// }
-// nav a:active {
-// color:#A4DCEE;
-// background:none;
-// }
-// nav a.selected{
-// color:#A4DCEE;
-// }
-
-// @media (max-width 768px) {
-//     header {
-//         background: url(logo_sm.png) no-repeat top center;
-//         margin: auto;
-//     }
-    
-//     nav {
-//     font-size:150%;
-//     }
-    
-//     nav li {
-//     width:100%;
-//     /*margin:5px;*/
-//     display:inline;
-//     right:0;
-//     left:0;
-//     padding:5px 10px;
-//     }
-    
-// }
+nav a:active{
+    -webkit-transform:scale(0.9); 
+    -moz-transform:scale(0.9); 
+    -ms-transform:scale(0.9); 
+    -o-transform:scale(0.9); 
+    transform:scale(0.9); 
+    -webkit-box-shadow:0px 0px 20px #FFF; 
+    -moz-box-shadow:0px 0px 20px #FFF; 
+    -o-box-shadow:0px 0px 20px #FFF; 
+    box-shadow:0px 0px 20px #FFF; 
+}
